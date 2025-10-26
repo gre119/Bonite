@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+    /* Use the provided image as a full-screen background */
+    background: url('B30.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px;
+    padding: 40px;
+    /* Semi-transparent dark background to ensure text is readable */
+    background-color: rgba(42, 25, 17, 0.85); 
+    border: 4px solid #c8a97e; /* Gold-like border */
+    color: #f3e9d2; /* Creamy off-white text */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; /* Increased gap to move items apart */
+    border-bottom: 2px solid #c8a97e; /* Move border to header */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.shop-sign {
+    max-width: 150px; /* Increased size */
+    height: auto;
+    /* Add a shadow to create a blurred edge effect */
+    box-shadow: 0 0 15px 5px #3a2218;
+}
+
+/* Photo Gallery Styles */
+.photo-gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.photo-gallery h2 {
+    color: #e0cda8;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #c8a97e;
+}
+
+.object-top {
+    object-position: top; /* Align image to the top */
+}
+
+.object-contain {
+    object-fit: contain; /* Show the whole image */
+}
+
+h1, h2 {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 700;
+    color: #e0cda8;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.8rem;
+    line-height: 1.3;
+    /* Remove border from H1 as it's now on the header */
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left; /* Align text to left within its flex item */
+}
+
+.greeting {
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 2;
+}
+
+.greeting .signature {
+    text-align: right;
+}
+
+.special-offer {
+    background-color: rgba(243, 233, 210, 0.9); /* Slightly transparent creamy background */
+    color: #3a2218; /* Dark text on light background */
+    padding: 30px;
+    margin: 40px 0;
+    border: 2px solid #c8a97e;
+    text-align: center;
+}
+
+.special-offer h2 {
+    color: #3a2218;
+    margin-top: 0;
+}
+
+.special-offer .date {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.offer-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Increased gap for better spacing */
+    margin-top: 20px;
+}
+
+.offer-details img {
+    max-width: 120px; /* Constrain bottle image size */
+    height: auto;
+}
+
+.offer-details p {
+    text-align: left; /* Align text to the left for readability */
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #c8a97e;
+    color: #e0cda8;
+}
+
+.shop-info .name {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.shop-interior {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.shop-interior h2 {
+    color: #e0cda8;
+}
+
+.shop-interior img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #c8a97e;
+}
