@@ -102,6 +102,12 @@ h1 {
     line-height: 2;
 }
 
+/* Reset margin and padding for paragraphs inside .greeting to fix overflow issue */
+.greeting p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .greeting .signature {
     text-align: right;
 }
