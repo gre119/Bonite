@@ -2,7 +2,7 @@
 
 body {
     /* Use the provided image as a full-screen background */
-    background: url('B30.JPG') no-repeat center center fixed;
+    background: url('B30.JPG') no-repeat center center;
     background-size: cover;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
