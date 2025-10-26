@@ -2,7 +2,7 @@
 
 body {
     /* Use the provided image as a full-screen background */
-    background: url('B30.jpg') no-repeat center center fixed;
+    background: url('B30.JPG') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
@@ -166,4 +166,9 @@ footer {
     height: auto;
     margin-top: 20px;
     border: 2px solid #c8a97e;
+}
+
+.special-offer-image {
+    text-align: center;
+    margin-top: 40px;
 }
